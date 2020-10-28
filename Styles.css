@@ -1,0 +1,291 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #01c5c4;
+  font-family: 'Balsamiq Sans', cursive;
+  color:  #e8ffc1;
+}
+html
+{
+  height: 100%;
+}
+h1{
+  font-size: 50px;
+  padding: 0;
+  line-height: 20px;
+  font-family: 'Balsamiq Sans', cursive;
+  color: #fcf876;
+}
+h2
+{
+  color: lightgreen;
+}
+hr
+{
+  width: 20%;
+  border-style: none;
+  border-top: 6px dotted ;
+  border-color: #f9c0c0;
+}
+input[type=text] ,input[type=email]{
+  width: 250px;
+  height: 50px;
+  padding: 12px 10px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border: 1px solid lightgreen;
+  border-radius: 30px 30px 30px 30px;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: #01c5c4;
+}
+label
+{
+  font-size: 13px;
+}
+input[type=submit]{
+  width: 250px;
+  padding: 12px 10px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border: 1px solid lightgreen;
+  border-radius: 30px 30px 30px 30px;
+  font-size: 20px;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: #01c5c4;
+  color: inherit;
+}
+
+.Profile-Image{
+  display: inline-block;
+  height: 100%;
+  width:200px;
+  position: fixed;
+  z-index: -1;
+}
+.content{
+  position: absolute;
+  background-color:#01c5c4;
+  display: inline-block;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  width: 770px;
+  margin-left: 430px;
+  z-index: -1;
+  padding-left: 50px;
+}
+.NameContainer{
+  position: absolute;
+  background-color:#01c5c4;
+  color: #eeecda;
+  display: inline-block;
+  left:290px;
+  right:0;
+  top:150px;
+  bottom:0;
+  width: 400px;
+  height: 23%;
+  border-radius: 130px;
+  padding: 30px;
+}
+
+.Designation-Animate{
+  position: relative;
+  top: 375px;
+  height: auto;
+  width: auto;
+}
+span:before
+{
+  content:'';
+  animation: animate infinite 2s;
+  font-size: 35px;
+}
+@keyframes animate
+{
+  0%
+  {
+    content:'DEVELOPER';
+    color: #fcf876;
+  }
+  25%
+  {
+    color:lightgreen;
+  }
+   50%
+  {
+    content:'ASPIRING WEB DESIGNER';
+    color: #f9a1bc;
+  }
+  75%{
+    color:#fcbad3;
+  }
+  100%
+  {
+    content:'PROGRAMMER';
+    color: #aa96da;
+  }
+}
+.Duration{
+  transform: rotate(90deg);
+  font-size: 10px;
+ }
+ :root{
+   --size:100px;
+   --bord:5px;
+ }
+.Hello-Text{
+  width: 600px;
+  line-height: 25px;
+}
+.about-me{
+  width: 38%;
+  padding: 0 10px 0 0;
+  display: inline-block;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.about-me1{
+  width: 38%;
+  padding:  0 10px 0 10px;
+  display: inline-block;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.about-me2{
+  text-align: justify;
+  text-justify: left;
+  width:80%;
+}
+.Experiencetable{
+ width: 85%;
+ text-align: justify;
+ text-justify: inter-word;
+}
+.Contactdiv{
+  width: 150px;
+  padding: 12px 10px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  height: 45px;
+  background-color: green;
+}
+.CodingSkill td{
+  padding: 0 75px 0 0;
+}
+.chart{
+  width: var(--size);
+  height: var(--size);
+  margin: 1rem auto;
+  border: var(--bord)solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(white,white)padding-box,conic-gradient(#fcf876 var(--value),lightgrey var(--value))border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #fcf876;
+}
+.HTML-CSS{
+  --value:80%;
+}
+.Csharp{
+  --value:90%;
+}
+.MsSQL{
+  --value:75%;
+}
+.XAML{
+  --value:65%;
+}
+.CollectInfo{
+  position: absolute;
+  width: 40%;
+  height: 400px;
+  float: left;
+}
+.Message{
+  width: 250px;
+  height: 200px;
+  padding: 12px 10px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border: 1px solid lightgreen;
+  border-radius: 30px 30px 30px 30px;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: #01c5c4;
+  color: inherit;
+}
+.DisplayInfo{
+  position: absolute;
+  display: block;
+  width: 35%;
+  float: right;
+  background-color: #01c5c4;;
+  height: 380px;
+  margin-left: 40%;
+  margin-top: 2%;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px solid lightgreen;
+  padding: 30px;
+}
+.righttable{
+  padding-left: 15px;
+}
+.ContactButton{
+  width: 150px;
+  padding: 12px 10px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border: 1px solid lightgreen;
+  border-radius: 30px 30px 30px 30px;
+  font-size: 20px;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: #01c5c4;
+}
+.colorgreen{
+  color: lightgreen;
+}
+.footer{
+position: fixed;
+display: inline-block;
+background-color: #01c5c4;
+margin:0 0 0 1170px;
+width:80px;
+border-left: 1.5px lightgreen solid;
+height:100%;
+width:100px;
+overflow: hidden;
+}
+
+#HOME{
+  position: fixed;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+#CONTACT{
+  position: fixed;
+  margin-top: 130px;
+  margin-left: 10px;
+}
+#LinkedIn
+{
+position: fixed;
+margin-top: 250px;
+margin-left: 20px;
+}
+#Facebook
+{
+position: fixed;
+margin-top: 330px;
+margin-left: 20px;
+}
+#Instagram
+{
+position: fixed;
+margin-top: 410px;
+margin-left: 20px;
+}
